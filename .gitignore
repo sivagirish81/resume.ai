@@ -1,0 +1,92 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Production
+.env
+.env.*
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Coverage directory
+coverage/
+
+# Misc
+*.local
+*.cache
+*.log
+
+# React specific
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Storybook build outputs
+.out/
+storybook-static/
+
+# Mac system files
+.AppleDouble
+.LSOverride
+
+# Windows system files
+Desktop.ini
+$RECYCLE.BIN/
+
+# Yarn Integrity file
+yarn.lock
+
+# Parcel-bundler cache
+.cache/
+.parcel-cache/
+
+# Next.js build output
+.next/
+
+# Svelte build output
+.svelte-kit/
+
+# Firebase build output
+.firebase/
+
+# VS Code settings
+.vscode/*
+
+# Ignore test coverage
+coverage/
+
+# Ignore local env files
+.env
+.env.*
